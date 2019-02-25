@@ -8,10 +8,10 @@ const raiz = __dirname;
 //settings
 app.set('port', 3000);
 app.set('views', path.join(raiz,'views'));
-//app.engine('html', cons.swig);
-//app.set('view engine', 'html');
-app.engine('html', require('ejs').renderFile);
+app.engine('ejs', require('ejs').renderFile);
 app.set('view engine', 'ejs');
+
+
 
 //routes
 app.use(require('./routes/index.ejs'));
@@ -23,4 +23,5 @@ app.use(require('./routes/index.ejs'));
 //listening
 app.listen(app.get('port'), () => {
   console.log('server on port', app.get('port'));
+  console.log('engine', path.join(raiz,'views'));
 })
