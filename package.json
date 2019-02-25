@@ -1,0 +1,21 @@
+{
+  "name": "web_node",
+  "version": "1.0.0",
+  "description": "Pagina web Digitalapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkunchain/web_node.git"
+  },
+  "keywords": [],
+  "author": "Luis Fernando Prieto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkunchain/web_node/issues"
+  },
+  "homepage": "https://github.com/darkunchain/web_node#readme"
+}
