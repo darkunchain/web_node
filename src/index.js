@@ -9,7 +9,7 @@ const raiz = __dirname;
 app.set('port', 3000);
 app.set('views', path.join(raiz,'views'));
 app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'html');
+app.set('view engine', 'ejs');
 
 //routes
 app.use(require('./routes/index.ejs'));
