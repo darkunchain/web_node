@@ -18,7 +18,7 @@ app.use(require('./routes/index.js'));
 
 //static files
 
-
+app.use(express.static(path.join(raiz, 'public')))
 
 //listening
 app.listen(app.get('port'), () => {
