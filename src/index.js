@@ -8,13 +8,13 @@ const raiz = __dirname;
 //settings
 app.set('port', 3000);
 app.set('views', path.join(raiz,'views'));
-app.engine('ejs', require('ejs').renderFile);
+app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 
 
 
 //routes
-app.use(require('./routes/index.ejs'));
+app.use(require('./routes/index.js'));
 
 //static files
 
