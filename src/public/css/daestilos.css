@@ -18,12 +18,6 @@
  text-align: right;
 }
 
-.row .col.border {
-  border-left: #808287;
-  border-left-width: 0.5px;
-  border-left-style: inset;  
-}
-
 #test1 {
 padding: 70px 0px 0px 0px;
 }
@@ -100,6 +94,11 @@ ul.tabs.tabs-transparent a:hover {
   div#col-logo {
     height: 45px;
   }
+  .row .col.border {
+    border-top: #808287;
+    border-top-width: 0.5px;
+    border-top-style: inset;  
+  }
 }/* MediaQueries para smartphone portrait */
 
 /* MediaQueries para smartphone Landscape y tablets portrait */
@@ -137,6 +136,12 @@ ul.tabs.tabs-transparent a:hover {
   nav i.material-icons {
     font-size: 36px !important;
   }
+  .row .col.border {
+    border-left: #808287;
+    border-left-width: 0.5px;
+    border-left-style: inset;  
+  }
+  
 }/* MediaQueries para smartphone Landscape y tablets portrait */
 
 /* MediaQueries para tablets Landscape */
@@ -187,6 +192,11 @@ ul.tabs.tabs-transparent a:hover {
   .tabs .tab a{
     padding: 0 0 !important;
     font-size: small;
+  }
+  .row .col.border {
+    border-left: #808287;
+    border-left-width: 0.5px;
+    border-left-style: inset;  
   }
 }/* MediaQueries para tablets Landscape */
 
@@ -244,7 +254,12 @@ ul.tabs.tabs-transparent a:hover {
   .tabs .tab .men3{max-width: 10%;}
   .tabs .tab .men4{max-width: 20%;}
   .tabs .tab .men5{max-width: 20%;}
-
+  
+  .row .col.border {
+    border-left: #808287;
+    border-left-width: 0.5px;
+    border-left-style: inset;  
+  }
 
 
 
