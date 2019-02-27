@@ -1,3 +1,29 @@
+.page-footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color: #525459 !important;
+}
+.container.foot {
+  margin: auto;
+  bottom: 50%;
+}
+.icon-foot {
+  padding: 0 10px 0 3px;  
+}
+
+.foot-div {
+ font-size: 20px;
+ text-align: right;
+}
+
+.row .col.border {
+  border-left: #808287;
+  border-left-width: 0.5px;
+  border-left-style: inset;  
+}
+
 #test1 {
 padding: 70px 0px 0px 0px;
 }
